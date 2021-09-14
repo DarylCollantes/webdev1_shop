@@ -1,0 +1,233 @@
+/* 
+Colors
+White: FFFFEB
+Black: 490919
+Yellow: FFFFB3
+Beige: DCAB6B
+Brown: 6A381F
+Red: 921131
+*/
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFFEB;
+}
+
+nav{
+    background-color: #FFFFEB;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav>a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+    width: 155px;
+    border: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+nav>a:link, nav>a:visited{
+    background-color: #FFFFEB;
+    color: #6A381F;
+}
+
+nav>a:hover, nav>a:active{
+    background-color: #DCAB6B;
+    /* color: #6A381F; */
+}
+
+#logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+
+#logo:hover, #logo:active{
+    background-color: #FFFFEB;
+    color: #6A381F;
+}
+
+a{
+    text-decoration: none;
+    color: #921131;
+}
+
+h1{
+    color: #921131;
+    font-size: 64px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+    color: #921131;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 0;
+}
+
+p{
+    color: #006D77;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 0;
+}
+
+
+table{
+    color: #490919;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+th, td {  
+    margin: 0;
+    padding: 15px;
+    font-size: 20px;
+  }
+
+thead{
+    background: #006D77;
+    color: #EDF6F9;
+}
+  
+.center_parent{
+    width: 65%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+.center_child{
+    padding: 50px;
+}
+
+.product_group_name{
+    padding: 30px 0;
+}
+
+.product_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 20px;
+    align-items: center;
+    border-bottom: 1px solid #490919;
+    margin-bottom: 10px;
+}
+
+.product_info{
+    display: flex;
+    flex-direction: column;
+    /* background-color: cyan; */
+    justify-content: center;
+    padding: 40px 60px;
+}
+
+.product_info > h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.product_info > p{
+    font-size: 20px;
+    line-height: 1.6;
+    color: #6A381F
+}
+
+.buy_now{
+    background: #921131;
+    color: #FFFFEB;
+    border: none;
+    padding: 16px;
+    margin: 30px 0;
+    width: 13ch;
+    border-radius: 10%;
+    transition: 0.3s;
+    font-size: 14px;
+    opacity: 85%;
+}
+
+.buy_now:hover{
+    opacity: 100%;
+}
+.banner{
+    max-width: 100%;
+}
+
+.thumbnail{
+    width: 33%;
+}
+
+#form1{
+    width: 600px;
+}
+
+input{
+    padding: 3px;
+}
+
+textarea{
+    height: 100px;
+    width: 300px;
+}
+
+#mysubmit, #myreset{
+    font-size: 18px;
+    padding: 7px 20px; 
+    border: none;
+}
+
+#mysubmit{
+    background: #921131;
+    color: #FFFFEB;
+    opacity: 80%;
+    transition: 0.2s;
+}
+
+#mysubmit:hover{
+    opacity: 100%;
+}
+
+#myreset{
+    background: #DCAB6B;
+    color: #490919;
+    opacity: 80%;
+    transition: 0.2s;
+}
+
+#myreset:hover{
+    opacity: 100%;
+}
+
+footer{
+    color: #DCAB6B;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+/* 
+Colors
+White: FFFFEB
+Black: 490919
+Yellow: FFFFB3
+Beige: DCAB6B
+Brown: 6A381F
+Red: 921131
+*/
